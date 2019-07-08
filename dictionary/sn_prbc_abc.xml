@@ -4,7 +4,6 @@
             <choice>
                 <element inactive_on_update="false" label="Blue" value="blue"/>
                 <element inactive_on_update="false" label="Green" value="green"/>
-                <element inactive_on_update="false" label="Rec" value="red"/>
             </choice>
         </element>
     </element>
