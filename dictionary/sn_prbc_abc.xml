@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="abc" max_length="40" name="sn_prbc_abc" type="collection">
+        <element choice="1" label="Color" max_length="40" name="color" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Blue" value="blue"/>
+                <element inactive_on_update="false" label="Green" value="green"/>
+                <element inactive_on_update="false" label="Rec" value="red"/>
+            </choice>
+        </element>
+    </element>
+</database>
