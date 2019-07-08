@@ -1,58 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="color" table="sn_prbc_abc" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>color</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Blue</label>
-            <language>en</language>
-            <name>sn_prbc_abc</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-08 19:02:29</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>49e5c819772e3300ec23b5b26810610d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-08 19:02:31</sys_updated_on>
-            <value>blue</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>color</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Green</label>
-            <language>en</language>
-            <name>sn_prbc_abc</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-08 19:02:25</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>21d54c19772e3300ec23b5b2681061e2</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-08 19:02:27</sys_updated_on>
-            <value>green</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="color" table="sn_prbc_abc" version="3">
+        <sys_choice_set action="DELETE">
             <element>color</element>
             <name>sn_prbc_abc</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_class_name/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-08 19:02:10</sys_created_on>
+            <sys_created_on/>
             <sys_id>5dd54c19772e3300ec23b5b26810612d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count/>
             <sys_name>color</sys_name>
             <sys_package display_value="prbc" source="sn_prbc">80758019772e3300ec23b5b268106120</sys_package>
             <sys_policy/>
             <sys_scope display_value="prbc">80758019772e3300ec23b5b268106120</sys_scope>
             <sys_update_name>sys_choice_sn_prbc_abc_color</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-08 19:02:10</sys_updated_on>
+            <sys_updated_on>2019-07-08 19:05:47</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
